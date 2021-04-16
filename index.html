@@ -4,23 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rebel</title>
+    <title>Gry Rebel</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/Mobile/mobile.css">
+    <link rel="stylesheet" href="css/Mobile/header.css">
+    <link rel="stylesheet" href="css/Mobile/main.css">
+    <link rel="stylesheet" href="css/Mobile/section.css">
+    <link rel="stylesheet" href="css/Mobile/footer.css">
+    <link rel="stylesheet" media="(min-width: 761px)" href="css/Tablet/tablet.css">
+    <link rel="stylesheet" media="(min-width: 761px)" href="css/Tablet/header.css">
+    <link rel="stylesheet" media="(min-width: 761px)" href="css/Tablet/main.css">
+    <link rel="stylesheet" media="(min-width: 761px)" href="css/Tablet/section.css">
+    <link rel="stylesheet" media="(min-width: 1281px)" href="css/Desktop/desktop.css">
+    <link rel="stylesheet" media="(min-width: 1281px)" href="css/Desktop/header.css">
+    <link rel="stylesheet" media="(min-width: 1281px)" href="css/Desktop/section.css">
 
-    <link rel="stylesheet" href="styles/reset.css"/>
-    <link rel="stylesheet" href="styles/mobile.css"/>
-    <link rel="stylesheet" href="styles/tablet.css"/>
-    <link rel="stylesheet" href="styles/desktop.css"/>
-
-    <link href="https://pl.freepik.com/wektory/tlo">
+    
 
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <span class="rebel">rebel</span>
-            <span class="rebel">i wszystko gra</span>
+    <header class="header">
+        <div class="header__container ">
+            <h1 class="header__container__logo">REBEL</h1>
+            <button class="button"><img src ="img/Icons/search.svg"/><i class="fal fa-search"></i>Szukaj...</button><input type="hidden"  name="search" class="header__container__logo__search"
+            placeholder="Szukaj"></button>
+            
+            <i class="fas fa-user"><img src="img/Icons/user.svg"/></i>
+            <i class="fas fa-shopping-basket"><img src="img/Icons/basket.svg"></i>
+            
         </div>
-        <div id="flex" class="font">
+        <nav class="nav"></nav>
+    </header>
+
+    <section class="content row">
+        <div class="content__container container">
+            <article class="content__article cell"></article>
+            <aside class="content__ads cell"></aside>
+        </div>
+    </section>
+
+    <footer class="footer row">
+        <div class="footer__container container">
+            <section class="footer__copyrights cell"></section>
+            <section class="footer__logo cell"></section>
+            <section class="footer__sponsor cell"></section>
+        </div>
+    </footer>
+        <!-- <div id="flex" class="font">
             <div id="flex1">
                 <div class="photo1">
                     <figure><img src="img/tropico.jpg" alt="TROPICO liczba graczy: 2-8, wiek: 6+"/>
@@ -87,8 +119,8 @@
         <div class="footer">
             małe gry, wielka frajda!
         </div>
-    </div>
-
     
+
+     -->
 </body>
 </html>
