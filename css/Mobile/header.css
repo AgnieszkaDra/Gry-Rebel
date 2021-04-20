@@ -23,6 +23,15 @@ header{
     
 }
 
+/* ./css/mobile.css */
+/* ... */
+header ul {
+      display: none;  
+   }
+header input:checked + ul {
+    display: block;
+   } 
+
 
  header > .header__container{
     display: flex;
