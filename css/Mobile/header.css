@@ -1,36 +1,102 @@
-/* .header__container {
-    display: flex;
-    justify-content: space-between;
-   }
-   .header__logo {
-    min-width: 200px;
-   }
-   .header__nav {
-    min-width: 400px;
-   } */
-
-   /* .header {
-    position: relative;
-    height: 0;
-    background-image: url(../../img/header_bgc_mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: calc(426 / 640 * 50%);
-} */
 
 header{
-    
-    
+    background-color: aqua;
+    color: black;
+    position: relative;
 }
 
-/* ./css/mobile.css */
-/* ... */
-header ul {
+ header ul {
       display: none;  
-   }
+   } 
 header input:checked + ul {
     display: block;
+    background-color: rgb(219, 217, 221);
    } 
+button{
+    display: none;
+}
+
+header  li + a{
+    
+    background-color: crimson;
+}
+   
+.nav__list{
+    border: 2px solid red;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav__link{
+    display: block;
+    padding: 15px 30px;
+    color: rgb(132, 154, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav__link:hover {
+    border-top: 2px solid #009AE1;
+    border-top-left-radius: 5px;
+}
+
+.nav__item:hover .nav__dropdown {
+    display: block;
+}
+
+.nav__item:hover .nav__dropdown li > a{
+    display: none;
+}
+
+ .nav__item:hover > .nav__dropdown:hover  li > a{
+    display: block;
+}
+
+
+
+
+
+
+.nav__dropdown {
+    
+    /* display: none; */
+    position: relative;
+    width: 100%;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav__item {
+    margin-left: 30px;
+
+}
+
+.dropdown__link{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.droppdown__link{
+    margin-left: 60px;
+    width:100%;
+    list-style-type: none;
+    padding: 0,5rem;
+    text-decoration: none;
+    color: black;
+}
+   
+/* header label {
+    position: absolute;
+    left: 30px;
+    top: 95px;
+    color: coral;
+   } */
+   
+ /* header input {
+    display: none;
+   } */
 
 
  header > .header__container{
@@ -73,7 +139,7 @@ div > .fa-user{
 
 
 nav{
-    background-color:
+    background-color:bisque;
     
     /* min-height: 10vh; */
     min-height: calc(30vh - 50px);
@@ -83,4 +149,4 @@ nav{
 
 header > .header__container{
     display: flex;
-}
+} */
