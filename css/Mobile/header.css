@@ -1,27 +1,41 @@
 
-header{
-    background-color: aqua;
-    color: black;
-    position: relative;
-    height: 100vh;
-}
-
+/* header{
+    background-image: url('/Dixit.png');
+    height: 0;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+   
+}  */
+/* 
 nav{
-    height: 30vh;
-}
+    height: 300px;
+    background-color:gray;
+    background-repeat: no-repeat; 
+    background-size: contain;
+    width: 100%;
+    padding-bottom: 100%;
+} */
 
-  
+  body{
+      background-color: blueviolet;
+  }
 
 .nav__item{
     display: none;
 }
-nav input:checked  + ul > li {
+
+nav  button:hover +ul > li {
     display: block;
-    background-color: rgb(219, 217, 221);
+    
    } 
-button{
+
+nav button:hover  + ul > li > ul{
     display: none;
 }
+nav  button:hover  +ul > li button {
+    display: none;
 
 header  li + a{
     
@@ -106,12 +120,12 @@ header  li + a{
    } */
 
 
- header > .header__container{
+ /* header > .header__container{
     display: flex;
     justify-content: space-between;
     min-height: 18vh;
     
-} 
+}  */
 
 div > .header__container__logo{
     padding-left: 5%;
@@ -144,11 +158,11 @@ div > .fa-user{
 
 
 
-
+/* 
 nav{
     background-color:bisque;
     
-    /* min-height: 10vh; */
+    min-height: 10vh;
     min-height: calc(30vh - 50px);
 
     
@@ -156,4 +170,4 @@ nav{
 
 header > .header__container{
     display: flex;
-} */
+}  */
