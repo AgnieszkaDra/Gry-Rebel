@@ -3,6 +3,11 @@ header{
     background-color: aqua;
     color: black;
     position: relative;
+    height: 100vh;
+}
+
+nav{
+    height: 30vh;
 }
 
   
